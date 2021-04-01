@@ -1,0 +1,17 @@
+source https://www.coursera.org/learn/introduction-tensorflow/discussions/weeks/1/threads/u9_ehwRaEeqkTw5y9mTAbw
+
+First install Miniconda or Anaconda:
+
+https://docs.conda.io/projects/conda/en/latest/user-guide/install/
+
+After that, you can install GPU version of Tensorflow into its own Conda environment simply with:
+
+conda create -n tfgpu tensorflow-gpu
+
+That command installs Tensorflow and all other required packages. There tfgpu is the name of the environment, you can change it to whatever you want. After installation, you can activate the environment with:
+
+conda activate tfgpu
+
+More information: https://www.anaconda.com/tensorflow-in-anaconda/
+
+
